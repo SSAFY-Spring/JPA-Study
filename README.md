@@ -46,7 +46,7 @@
 | 이름 |  권현준  | 류지윤 | 서준호 | 신영한 | 윤희원 |
 | :--: | :-----: | :----: | :----: | :----: | :----: |
 |  | <img src="https://avatars.githubusercontent.com/u/119548924?v=4" width="150"/> | <img src="https://avatars.githubusercontent.com/u/63836145?v=4" width="150"/> | <img src="https://avatars.githubusercontent.com/u/140311409?v=4" width="150"/> |<img src="https://avatars.githubusercontent.com/u/83218200?v=4" width="150"/> | <img src="https://avatars.githubusercontent.com/u/59885440?v=4" width="150"/>
-| Github | [@HeewonYoun](https://github.com/HeewonYoun) | [@Ryujy](https://github.com/Ryujy) | [@ho97s](https://github.com/ho97s)| [@syhan7516](https://github.com/syhan7516)| [@HeewonYoun](https://github.com/HeewonYoun)|
+| Github | [@Kwonhyunjun](https://github.com/Kwonhyunjun) | [@Ryujy](https://github.com/Ryujy) | [@ho97s](https://github.com/ho97s)| [@syhan7516](https://github.com/syhan7516)| [@HeewonYoun](https://github.com/HeewonYoun)|
 
 </div>
 <br/>
@@ -65,17 +65,28 @@
       <th>비고</th>
     </tr>
   </thead>
-  <tbody>
+  <tbody align="center">
     <tr>
       <td rowspan="2">1주차</td>
-      <td rowspan="2">2023.11.28 ~ 2023.12.05</td>
-      <td>실전! 스프링 부트와 JPA 활용1 - 웹 애플리케이션 개발</td>
+      <td rowspan="2">23.11.28 ~ 23.12.05</td>
+      <td>실전! 스프링 부트와 JPA 활용1</td>
       <td>섹션 1 ~ 섹션 6</td>
+      <td rowspan="2">✔</td>
+    </tr>
+    <tr>
+      <td align="center">자바 ORM 표준 JPA 프로그래밍</td>
+      <td>섹션 1 ~ 섹션 3</td>
+    </tr>
+    <tr>
+      <td rowspan="2">2주차</td>
+      <td rowspan="2">23.12.06 ~ 23.12.12</td>
+      <td>실전! 스프링 부트와 JPA 활용1~2</td>
+      <td>섹션 7, 섹션 1 ~ 섹션 3</td>
       <td rowspan="2"></td>
     </tr>
     <tr>
-      <td align="center">자바 ORM 표준 JPA 프로그래밍 - 기본편</td>
-      <td>섹션 1 ~ 섹션 3</td>
+      <td align="center">자바 ORM 표준 JPA 프로그래밍</td>
+      <td>섹션 4 ~ 섹션 5</td>
     </tr>
   </tbody>
 </table>
