@@ -12,14 +12,14 @@
 
 <div align="center">
   
-  **김영한의 스프링 부트와 JPA 실무 완전 정복 로드맵 과정을 따라 학습하는 스터디**
-  | 학습 강의 | 
-  |:----:|
-  자바 ORM 표준 JPA 프로그래밍 - 기본편
-  실전! 스프링 부트와 JPA 활용1 - 웹 애플리케이션 개발
-  실전! 스프링 부트와 JPA 활용2 - API 개발과 성능 최적화
-  실전! 스프링 데이터 JPA
-  실전! Querydsl
+**김영한의 스프링 부트와 JPA 실무 완전 정복 로드맵 과정을 따라 학습하는 스터디**
+| 학습 강의 | 
+| :----: |
+자바 ORM 표준 JPA 프로그래밍 - 기본편
+실전! 스프링 부트와 JPA 활용1 - 웹 애플리케이션 개발
+실전! 스프링 부트와 JPA 활용2 - API 개발과 성능 최적화
+실전! 스프링 데이터 JPA
+실전! Querydsl
 
 </div>
 <br/>
@@ -82,11 +82,22 @@
       <td rowspan="2">23.12.06 ~ 23.12.12</td>
       <td>실전! 스프링 부트와 JPA 활용1~2</td>
       <td>섹션 7, 섹션 1 ~ 섹션 3</td>
-      <td rowspan="2"></td>
+      <td rowspan="2">✔</td>
     </tr>
     <tr>
       <td align="center">자바 ORM 표준 JPA 프로그래밍</td>
       <td>섹션 4 ~ 섹션 5</td>
+    </tr>
+    <tr>
+      <td rowspan="2">3주차</td>
+      <td rowspan="2">23.12.13 ~ 23.12.19</td>
+      <td>실전! 스프링 부트와 JPA 활용2</td>
+      <td>섹션 4 ~ 섹션 6</td>
+      <td rowspan="2"></td>
+    </tr>
+    <tr>
+      <td align="center">자바 ORM 표준 JPA 프로그래밍</td>
+      <td>섹션 6 ~ 섹션 8</td>
     </tr>
   </tbody>
 </table>
