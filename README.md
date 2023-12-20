@@ -90,14 +90,25 @@
     </tr>
     <tr>
       <td rowspan="2">3주차</td>
-      <td rowspan="2">23.12.13 ~ 23.12.19</td>
+      <td rowspan="2">23.12.13 ~ 23.12.20</td>
       <td>실전! 스프링 부트와 JPA 활용2</td>
       <td>섹션 4 ~ 섹션 6</td>
-      <td rowspan="2"></td>
+      <td rowspan="2">✔</td>
     </tr>
     <tr>
       <td align="center">자바 ORM 표준 JPA 프로그래밍</td>
       <td>섹션 6 ~ 섹션 8</td>
+    </tr>
+    <tr>
+      <td rowspan="2">4주차</td>
+      <td rowspan="2">23.12.21 ~ 23.12.26</td>
+      <td>실전! 스프링 데이터 JPA</td>
+      <td>섹션 1 ~ 섹션 4</td>
+      <td rowspan="2"></td>
+    </tr>
+    <tr>
+      <td align="center">자바 ORM 표준 JPA 프로그래밍</td>
+      <td>섹션 9 ~ 섹션 10</td>
     </tr>
   </tbody>
 </table>
