@@ -104,11 +104,26 @@
       <td rowspan="2">23.12.21 ~ 23.12.26</td>
       <td>실전! 스프링 데이터 JPA</td>
       <td>섹션 1 ~ 섹션 4</td>
-      <td rowspan="2"></td>
+      <td rowspan="2">✔</td>
     </tr>
     <tr>
       <td align="center">자바 ORM 표준 JPA 프로그래밍</td>
       <td>섹션 9 ~ 섹션 10</td>
+    </tr>
+    <tr>
+      <td rowspan="3">5주차</td>
+      <td rowspan="3">23.12.27 ~ 24.01.02</td>
+      <td>실전! Querydsl</td>
+      <td>섹션 1 ~ 섹션 2</td>
+      <td rowspan="3"></td>
+    </tr>
+    <tr>
+      <td>실전! 스프링 데이터 JPA</td>
+      <td>섹션 5 ~ 섹션 7</td>
+    </tr>
+    <tr>
+      <td align="center">자바 ORM 표준 JPA 프로그래밍</td>
+      <td>섹션 11</td>
     </tr>
   </tbody>
 </table>
