@@ -135,16 +135,16 @@ class PracticeApplicationTests {
 		assertThat(deletedCount).isEqualTo(0);
 	}
 
-	// 순수 JPA 레포지터리에서 이름 나이 기준으로 조회 테스트
+	// 순수 JPA 레포지터리에서 스프링 데이터 JPA 변환 후 이름 나이 기준으로 조회 테스트
 	@Test
 	public void testMember5() {
 		Member m1 = new Member("AAA", 10);
 		Member m2 = new Member("AAA", 20);
-		memberJpaRepository.save(m1);
-		memberJpaRepository.save(m2);
+		memberRepository.save(m1);
+		memberRepository.save(m2);
 
 		List<Member> result =
-				memberJpaRepository.findByUsernameAndAgeGreaterThan("AAA", 15);
+				memberRepository.findByUsernameAndAgeGreaterThan("AAA", 15);
 		assertThat(result.get(0).getUsername()).isEqualTo("AAA");
 		assertThat(result.get(0).getAge()).isEqualTo(20);
 		assertThat(result.size()).isEqualTo(1);
