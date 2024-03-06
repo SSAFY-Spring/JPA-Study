@@ -6,7 +6,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.annotation.Rollback;
 
-import static org.assertj.core.api.Assertions.as;
 import static org.assertj.core.api.Assertions.assertThat;
 
 @SpringBootTest
@@ -20,8 +19,12 @@ class PracticeApplicationTests {
 	@Autowired
 	MemberJpaRepository memberJpaRepository;
 
+	@Autowired
+	MemberRepository memberRepository;
+
+	// 기본 JPA 회원 저장, 조회 테스트
 	@Test
-	public void testMember() {
+	public void testMember1() {
 		
 		// 회원 생성
 		Member member = new Member();
@@ -30,6 +33,26 @@ class PracticeApplicationTests {
 		
 		// 회원 조회
 		Member findMember = memberJpaRepository.find(saveMember.getId());
+
+		// 비교 검증
+		assertThat(findMember.getId()).isEqualTo(member.getId());
+		assertThat(findMember.getUsername()).isEqualTo(member.getUsername());
+
+		// 동일성 검증
+		assertThat(findMember).isEqualTo(member);
+	}
+
+	// 스프링 데이터 JPA 회원 저장, 조회 테스트
+	@Test
+	public void testMember2() {
+
+		// 회원 생성
+		Member member = new Member();
+		member.setUsername("memberA");
+		Member saveMember = memberRepository.save(member);
+
+		// 회원 조회
+		Member findMember = memberRepository.findById(saveMember.getId()).get();
 
 		// 비교 검증
 		assertThat(findMember.getId()).isEqualTo(member.getId());
