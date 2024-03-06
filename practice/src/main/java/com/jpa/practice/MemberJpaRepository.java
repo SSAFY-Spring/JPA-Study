@@ -18,7 +18,7 @@ public class MemberJpaRepository {
     }
 
     // 회원 조회
-    private Member find(Long id) {
+    public Member find(Long id) {
         return em.find(Member.class, id);
     }
 }
