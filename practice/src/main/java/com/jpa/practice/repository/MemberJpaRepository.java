@@ -1,5 +1,6 @@
-package com.jpa.practice;
+package com.jpa.practice.repository;
 
+import com.jpa.practice.entity.Member;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import org.springframework.stereotype.Repository;

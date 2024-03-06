@@ -1,5 +1,8 @@
 package com.jpa.practice;
 
+import com.jpa.practice.entity.Member;
+import com.jpa.practice.repository.MemberJpaRepository;
+import com.jpa.practice.repository.MemberRepository;
 import jakarta.transaction.Transactional;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
