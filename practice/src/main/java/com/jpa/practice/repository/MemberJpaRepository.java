@@ -5,6 +5,9 @@ import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import org.springframework.stereotype.Repository;
 
+import java.util.List;
+import java.util.Optional;
+
 @Repository
 public class MemberJpaRepository {
 
@@ -16,6 +19,29 @@ public class MemberJpaRepository {
     public Member save(Member member) {
         em.persist(member);
         return member;
+    }
+
+    // 회원 삭제
+    public void delete(Member member) {
+        em.remove(member);
+    }
+    
+    // 회원 전체 조회
+    public List<Member> findAll() {
+        return em.createQuery("select m from Member m", Member.class)
+                .getResultList();
+    }
+
+    // 특정 회원 찾기 (Optional Type)
+    public Optional<Member> findById(Long id) {
+        Member member = em.find(Member.class, id);
+        return Optional.ofNullable(member);
+    }
+    
+    // 회원 수 조회
+    public long count() {
+        return em.createQuery("select count(m) from Member m", Long.class)
+                .getSingleResult();
     }
 
     // 회원 조회
